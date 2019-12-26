@@ -1,4 +1,22 @@
-@media(min-width:992px) and (max-width:1199px) {}
+@media (min-width: 1200px){
+    .skill-text{
+    max-width: 560px;
+    margin-left: auto;
+    }   
+    .progress-area {
+    max-width: 560px;
+    }
+}
+    
+@media(min-width:992px) and (max-width:1199px) {
+ .skill-text{
+    max-width: 470px;
+    margin-left: auto;
+    }   
+    .progress-area {
+    max-width: 470px;
+    }
+}
 
 @media(min-width:768px) and (max-width:991px) {
     h3 {
@@ -77,6 +95,14 @@
     }
 
     /* skill */
+    .skill-text{
+    max-width: 350px;
+    margin-left: auto;
+    }   
+    .progress-area {
+    max-width: 350px;
+    }
+    
     .skill-text h2 {
         margin: 15PX 0;
         font-size: 25px;
@@ -158,6 +184,7 @@
         margin-top: 20px;
     }
 
+
     /* work */
     .work-btn li {
         margin-top: 10px;
@@ -184,12 +211,24 @@
     }
 
     /* skill */
+    .skill-text{
+    max-width: 540px;
+    margin: auto;
+        padding-bottom: 20px;
+    }   
+    .progress-area {
+    max-width: 540px;
+    margin: auto;
+    }
+    .skill-left{
+        height: auto;
+        transform: translateY(0);
+    -webkit-transform: translateY(0);
+        margin-bottom: 30px;
+    }
+    
     .skill-text h2 {
         margin: 15PX 0;
-    }
-
-    .skill-left {
-        min-height: 0;
     }
 
     /* team */
@@ -288,7 +327,7 @@
 
     /* banner */
     .banner-content h2 {
-        font-size: 24px;
+        font-size: 22px;
         padding-bottom: 10px;
     }
 
@@ -360,13 +399,30 @@
         margin: 20px 0px 30px;
     }
 
-    /* services */
+    /* service */
     .services_item p {
-        font-size: 18px;
+        font-size: 13px;
+        padding: 19px 8px 0 8px;
     }
 
     /* skill */
+    .skill-text{
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    }   
+    .progress-area {
+    max-width: 100%;
+    margin: auto;
+    }
+    .skill-left{
+        height: auto;
+        transform: translateY(0);
+    -webkit-transform: translateY(0);
+        margin-bottom: 30px;
+    }
     .skill-text h2 {
+        font-size: 24px;
         margin: 15PX 0;
     }
 

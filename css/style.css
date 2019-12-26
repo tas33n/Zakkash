@@ -836,18 +836,12 @@ body {
     -webkit-transform: translateY(-30px);
     padding: 30px;
     box-shadow: 0 0 5px #ccc;
-    min-height: 400px;
-    max-height: 400px;
+    height: 430px;
 }
 
 .skill-left,
 .skill-right {
     padding: 0;
-}
-
-.skill-text {
-    max-width: 530px;
-    margin-left: auto;
 }
 
 .skill-text h2 {
@@ -863,6 +857,7 @@ body {
     background-size: cover;
     position: relative;
     z-index: 1;
+    height: 370px;
 }
 
 .skill-right:after {
@@ -876,9 +871,6 @@ body {
     z-index: -1
 }
 
-.progress-area {
-    max-width: 600px;
-}
 
 .barfiller {
     width: 100%;
@@ -939,9 +931,6 @@ body {
     letter-spacing: 1px;
 }
 
-.progress-area .barfiller {
-    max-width: 85%;
-}
 
 /***********************
 *******team part********

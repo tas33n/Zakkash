@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#customNav" data-offset="70">
 
     <!-- preloder start-->
     <div class="preloader">
@@ -27,7 +27,7 @@
     <!-- preloder end -->
 
     <!--*******************************-----menu part start------********************************************-->
-    <nav class="navbar navbar-expand-lg customNav" data-anijs="if: scroll, on: window, do: fadeInDown   animated, before: scrollReveal">
+    <nav class="navbar navbar-expand-lg customNav" id="customNav" data-anijs="if: scroll, on: window, do: fadeInDown   animated, before: scrollReveal">
         <div class="container">
             <a class="logo logo-mobile" href="#">
                 <img src="img/logo.png" alt="">
@@ -409,9 +409,9 @@
 
 
     <!--***************************------skill part start-------------***************************************-->
-    <section id="skill-part" class="d-none d-md-block sec-pad">
+    <section id="skill-part" class="sec-pad">
         <div class="row m-0">
-            <div class="col-md-6 col-12 skill-left" data-anijs="if: scroll, on: window, do: fadeInLeft  animated, before: scrollReveal">
+            <div class="col-lg-6 skill-left" data-anijs="if: scroll, on: window, do: fadeInLeft  animated, before: scrollReveal">
                 <div class="skill-text">
                     <h2>Some Of Our Skills</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -423,7 +423,7 @@
                         similique dignissimos. Laboriosam, minima?</p>
                 </div>
             </div>
-            <div class="col-md-6 col-12 skill-right" data-anijs="if: scroll, on: window, do: fadeInRight  animated, before: scrollReveal">
+            <div class="col-lg-6 skill-right" data-anijs="if: scroll, on: window, do: fadeInRight  animated, before: scrollReveal">
                 <div class="progress-area">
                     <p>WEB DESIGN</p>
                     <div id="bar1" class="barfiller">
