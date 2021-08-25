@@ -90,11 +90,11 @@ $(function () {
     });
 
     //loder
-    $(window).on('load', function () {
+    /* $(window).on('load', function () {
 
         $('.preloader').delay(500).fadeOut(1000);
 
-    });
+    }); */
 
     //menu active
     $(".nav-item a").on('click', function () {
